@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Marathi:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Noto Sans Marathi", ui-sans-serif, system-ui, sans-serif;
+  --color-primary: #f37021; /* Orange */
+  --color-secondary: #0054a6; /* Blue */
+}
+
+@layer base {
+  body {
+    @apply text-gray-900 bg-gray-50;
+  }
+}
+
+.prose h3 {
+  @apply text-secondary font-bold;
+}
+
+.bg-orange-gov {
+  background-color: #f37021;
+}
+
+.bg-blue-gov {
+  background-color: #0054a6;
+}
+
+.text-orange-gov {
+  color: #f37021;
+}
+
+.text-blue-gov {
+  color: #0054a6;
+}

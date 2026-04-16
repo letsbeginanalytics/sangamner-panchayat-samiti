@@ -1,0 +1,7 @@
+{
+  "name": "Panchayat Samiti Sangamner",
+  "description": "Official website for Panchayat Samiti Sangamner with Marathi language support and modern UI.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
